@@ -1,3 +1,6 @@
 [submodule "jobify-frontend"]
 	path = jobify-frontend
 	url = https://github.com/btkcodedev/jobify-frontend.git
+[submodule "jobify-scraper"]
+	path = jobify-scraper
+	url = https://github.com/btkcodedev/jobify-scraper.git
