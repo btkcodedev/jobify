@@ -1,0 +1,25 @@
+name: Update Submodules
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # This runs the workflow every hour
+  workflow_dispatch:  # Allows you to manually trigger the workflow
+
+jobs:
+  update-submodules:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout the jobify repository
+        uses: actions/checkout@v2
+        with:
+          submodules: recursive
+
+      - name: Update submodules to the latest commit
+        run: |
+          git submodule update --remote
+          git add .
+          git commit -m "Update submodules to latest commit"
+          git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
