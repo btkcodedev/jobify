@@ -17,17 +17,12 @@ Jobify is a platform designed for job seekers to filter and find freshly scraped
 1. Navigate to the jobify-scraper directory.
 2. Run the scraper following directions from the README of that repo.
 
-## Usage
- - Ensure both the frontend and scraper are running.
- - Access the frontend via http://localhost:3000.
- - Use the interface to filter and view job listings.
-
 ## Contributing
  - Fork the repository.
  - Create a new branch (git checkout -b feature-branch).
  - Commit your changes (git commit -m 'Add some feature').
  - Push to the branch (git push origin feature-branch).
- - Open a pull request.
+ - Don't forget to format via prettier and then open a pull request.
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
