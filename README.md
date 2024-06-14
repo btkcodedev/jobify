@@ -1,5 +1,7 @@
 # Jobify
 
+Vision: Everyone should know every current oppurtunity at a single place 
+
 Jobify is a platform designed for job seekers to filter and find freshly scraped job listings from various sources.
 
 ## Features
