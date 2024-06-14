@@ -1,8 +1,22 @@
 # Jobify
 
-Vision: Everyone should know every current oppurtunity at a single place 
+Vision: Everyone should know every current opportunity at a single place 
 
 Jobify is a platform designed for job seekers to filter and find freshly scraped job listings from various sources.
+
+## Tech stack
+- Vite
+- React-ts
+- MUI-Joy
+- Firebase hosting
+- Firestore
+- GitHub actions
+- Redux saga
+- Redux toolkit
+- Selenium
+- Python3
+- SQLite
+- CSV
 
 ## Features
  - Frontend: User-friendly interface for browsing and filtering job listings.
